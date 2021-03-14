@@ -1,0 +1,26 @@
+Thaumcraft 6 Enhanced Version Notes
+
+1.0.0
+- Initial release
+- Changed runic from using the absorption mechanic to using it's own unique mechanics:
+	- damage mitigation on runic only affected by the player's armor rating (not toughness or enchanted protection)
+		- damage to runic shielding *is* affected by the resistance magic effect
+	- displays in a similar manner to TC4 runic shielding
+	- damage to players while their runic shielding is charged will not damage their worn armor
+	- runic shielding will not work for the following damage types:
+		- withering
+		- drowning
+		- suffocating (stuck in blocks)
+		- falling out of the world
+		- getting crammed (too many entities within the one block)
+		- starvation
+	- runic shielding will not recharge instantly on damage, and will use the 'shieldwait' variable in the mod configuration menu
+	- runic shielding will take double the time set by 'shieldwait' to recharge once reduced to 0
+		- the wording of the display for the mod configuration has been changed to reflect this
+	- players shot with arrows when runic shielding is charged will not have arrows left stuck in their player character
+	
+1.0.1
+- added the poison MobEffect to damage that will go through runic shielding
+
+1.0.2
+- changed maximum runic shielding value to a capability for data syncing between client and dedicated servers

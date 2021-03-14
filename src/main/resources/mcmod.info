@@ -1,0 +1,16 @@
+[
+{
+  "modid": "thaumcraft6enhanced",
+  "name": "Thaumcraft 6 Enhanced",
+  "description": "Mod Library for changes and patches to the 1.12.2 version of Thaumcraft 6.",
+  "version": "1.0.1",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Sheenus"],
+  "credits": "Azanor for making such an amazing IP and mod, DidYouIronTheCat for running the TC-RP Server, Kookyboy9 for helping me with the tougher parts of modding",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
